@@ -1,0 +1,61 @@
+# sc-walk cell types
+"Gal/Pdyn"                                            
+"Tac1/Sox5"                                           
+"Rorb"                                                
+"Nmu"                                                 
+"Man1a"                                               
+"Npy1r"                                               
+"Grpr"                                                
+"Rora/Adarb2"                                         
+"Lhx1/Nxph1"                                          
+"Cck/Cpne8"                                           
+"Cck/Trh"                                             
+"Nts"                                                 
+"Npy"                                                 
+"Maf/Cbln2"                                           
+"Cdh3"                                                
+"Grp"                                                 
+"Reln"                                                
+"Maf/Rora"                                            
+"Ecel1"                                               
+"Cck/Cpne4"                                           
+"Rorb-I"                                              
+"Rora-I"                                              
+"Tac2"                                                
+"Crabp1"                                              
+"Tac1/Gpr101"                                         
+"MN"                                                  
+"CSF-N"                                               
+"Rxfp2"                                               
+"Cck/Rorb"                                            
+"V0/V2a"    #Vsx2+                                           
+"V2a/Etl4"  #Vsx2+                                          
+"Spp1"                                                
+"V1/V2b-2"                                            
+"V1/V2b-3"                                            
+"V1/dl6"                                              
+"V1/V2b-1"                                            
+"Microglia (Cst3)"                                    
+"Microglia (Csdm3)"                                   
+"Microglia (Apoe)"                                    
+"Microglia (Spp1)"                                    
+"Activated microglia (Arhgap15)"                      
+"Activated microglia (Cd74)"                          
+"Intermediate grey matter astrocytes (Mgat4c)"        
+"Aging grey matter astrocytes (Gpc5)"                 
+"Maturing grey matter astrocytes (Cst3/Sparc)"        
+"White matter astrocytes (A2m/Gfap)"                  
+"Reactive astrocytes (Nnat/Spag16)"                   
+"Oligodendrocytes"                                    
+"OPCs"                                                
+"Endothelial cells (Cldn5)"                           
+"Vascular smooth muscle cells, arterial (Igfbp2/Apod)"
+"Pericytes (Vtn)"       
+
+# Interested in healthy, Non-training (NT), Training (T)
+
+# locomotion & kinematics project in which they reconstruct it in 3d
+  # G wrote an old matlab code that calculates gait parameters
+  # Deeplab cut is a python package that allows gait tracking without the bobbles
+    # Deeplab cut > outliers > matlab 2 python conversion
+      # they want to simplify that
