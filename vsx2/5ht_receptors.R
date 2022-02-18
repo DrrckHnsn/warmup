@@ -19,7 +19,7 @@ hrt_rcptrs<- dt_serotonin$mm_sym
 
 sobj<- readRDS("../_data/sc-walk.rds")
 
-Pdt_serotonin<- DotPlot(sobj, idents= NULL, features= hrt_rcptrs,
+Pdt_serotonin<- DotPlot(sobj, idents= c("V0/V2a", "V2a/Etl4"), features= hrt_rcptrs)
     # cols = c("lightgrey", "blue"),
     # col.min = -2.5,
     # col.max = 2.5,
@@ -32,7 +32,7 @@ Pdt_serotonin<- DotPlot(sobj, idents= NULL, features= hrt_rcptrs,
     # scale.by = "radius",
     # scale.min = NA,
     # scale.max = NA
-)
+# )
 
 ggsave(file="./plots/pDT_serotonin.png", width = NA, height = NA, units = "mm",
   plot = last_plot(),
